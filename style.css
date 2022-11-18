@@ -1,23 +1,43 @@
 *{
-    box-sizing: border-box;
+    margin: 0;/*tag usada o site nao ter margens*/
+    padding: 0;
+    box-sizing: border-box;/*tag usada para chamar definir a borda*/
+    text-decoration: none;/*tag usada as letras nao terem animações*/
+}
+.parte-de-cima{
+    display: flex; /*tag usada para identificar um atributo do do flexbox */
+    flex-direction: row;/*tag do flexbox para direçao dos itens*/
+    align-items: center;/*tag do flexbox para direçao dos itens*/
+    justify-content:space-around;/*tag do flexbox para direçao dos itens*/
+    padding: 7px;/* tag para definir o espaçamento do conteudo*/
+    
+}
+.navegacao1{
+    display:flex; /*tag usada para identificar um atributo do do flexbox */
+    gap: 100px;/*tag usada para causar distanciamento*/
+    border: 5px;
+    color: aliceblue;
+}
+
+div{
+    display: inline-block;
+    
 }
 body{
     margin: 0;
-    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(177, 177, 177);
+    color: rgb(0, 0, 0);
 }
 
-.perfil{
-    text-align: center;
-    padding-top: 50px;
-}
-.perfil img{
-    border-radius: 50%;
-}
-.main{
-    background-color:white;
+
+
+#main{
+    background-color:rgb(177, 177, 177);
     height: 500px;
     margin-top: 120px;
     margin-left: 40px;
+    color: rgb(0, 0, 0);
     
     
 }
@@ -37,9 +57,9 @@ h2{
 .sobre2{
     padding-left: 50px;
 }
-.proj{
+#proj{
     height: 500px;
-    margin-top: 120px;
+    margin-top: 90px;
     margin-left: 40px;
     margin-bottom: 100px;
 
@@ -53,8 +73,9 @@ h2{
     padding: 1px;
    
 }
-.oi{
-    margin-top: 300px;
+#oi{
+    margin-top: 100px;
+    margin-left: 45%;
 }
 
 ul li{
