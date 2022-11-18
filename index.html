@@ -1,16 +1,121 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-    <!-- criei dos frames para fazer a divisão do site(uma pagina com taamanho de 25% e a outra com 75%)-->
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <title>Curriculo</title>
-    </head>
-    <frameset cols="25%,75%" border="o">
-        <frame src="h1.html">
-        <frame src="h2.html">
-    </frameset>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="untitled-15.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="parte-de-cima">
+        <h1 class="logo-do-site1" style="color:aliceblue ;" > curriculo</h1>
+        <nav class="navegacao1">
+            <a href="#sobre" class="navegacao-item">sobre </a>
+            <a  href="#projetos" class="navegacao-item">projetos</a>
+            <a href="#contatos" class="navegacao-item">contatos</a> 
+        </nav>
+    </header>
+    <div>
+        <div id="div2"><!-- definição  da cor de fundo-->
+            <div id="main"><!-- criação de uma classe (main) definição da fonte e as posições das letras-->
+                <section id="sobre">
+                <h1 class="stilo">
+                    <strong>Luan</strong>
+                 <font color="orange" font-size="50px"> santos</font>
+                </h1>
+                <h2 class="sobre2">Maricá-Rj,Brasil</h2>
+                <h3>
+                    <p> Meu nome é Luan Santos Brandão da silva e atualmente estou cursando engenharia de software </p>
+                    <p>(2 periodo) na faculdade de Vassouras-Campus Maricá. busco desafios novos e estou preparado </p>
+                    <p> para dar o meu melhor como pessoa e profissional. </p>
+                    <p>
+                    <font color="red">Experiencia em desenvolvimento python, Css, html5,Java e PHP.</font>
+                    </p>
+                </h3>
+              
+                <div id="experiencia"><!-- definição da classe (experiencia) para colocar as imagens representando as minhas experiencias-->
+                    <ul>
+                        <li>
+                            <img src="MiConv.com__html (1).png" alt="" width="50px">
+                        </li>
+                        <li>
+                        <li>
+                            <img src="css1.png" alt="" width="50px">
+                        </li>
+                        <li>
+                            <img src="Python.png" alt="" width="50px">
+                        </li>
+                        <li>
+                            <img src="php.png" alt="" width="50px">
+                        </li>
+                    </ul>
+                    
+                    
+                </div>
+                </section>
+    
+            </div>
+            <div id="proj"><!-- criação de uma classe (proj) definição da fonte e as posições das letras, como tambem as imagens e tbm colqouei links dos meus
+            projetos em cada imagem-->
+                <section id="projetos">
+                <h1 class="stilo">
+                    <font color="red"> Projetos</font>
+                </h1>
+                <h2>Automação de chamadas:
 
+                </h2>
+                
+                <h3>
+                    encontramos um problema em sala de aula, onde muito dos professores faziam chamadas numa folha de papel
+                    e alguns
+                    vinham a perder essa mesma folha de papel e isso causava muito transtorno para os mesmos. Criamos um
+                    programa que automatiza a lista de chamada e computa todas as falats e presenças dos alunos
+                    e en seguida manda para o email do professor, deixando assim as chamadas mais rapidas e seguras.
+    
+                </h3>
+                <a
+                    href="https://github.com/luan-brandao/automa-o-chamadas-/blob/74989c8a8f92774eb0659d7fb9242294ec10043b/progrma.py">
+                    <img src="automcao.jpg" alt="" width="70px">
+                </a>
+                <h2>
+                    site sobre segurança da informação:
+                </h2>
+                <h3>
+                    Criação de um site com o intuito de ensinar praticas de segurança em meio ao ambiente digital
+                    e em breve uma extensao gratuita para bloquear sites maliciosos da internet
+                </h3>
+                <a href="https://luan-brandao.github.io/site-de-desenvolvimento-web/">
+                    <img src="logo.svg.svg" alt="">
+                    <h3>link do projeto</h3>
+                </a>
+                </section>
+    
+            </div>
+            <div id="oi" whidth="100px" >
+                <section id="contatos">
+                <h2 style="font-size: 30px;">
+                    <font color="red">Contatos</font>
+                </h2>
+                <h3>telefone:(55) 21 986390121</h3>
+            </section>
+            </div>
+        </div>
+        </div>
+    </body>
+    <footer class="rodape"><!-- criação de uma classe (rodape) e tambem coloquei a imagem de cada rede social minha com um link nelas-->
+        <div class="links">
+            <a href="https://github.com/luan-brandao">
+                <img src="github_PNG40.png" alt="" width="40px">
+            </a>
+            <a href="https://wa.me/qr/BP4TYC4DQ7GVM1">
+                <img src="whatsapp_PNG95162.png" alt="" width="40px">
+            </a>
+            <a href="linkedin.com/in/luan-brandao-a343b224b">
+                <img src="linkedIn_PNG27.png" alt="" width="40px">
+            </a>
+        </div>
+    </footer>
+
+</body>
 </html>
